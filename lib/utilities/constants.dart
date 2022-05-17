@@ -18,10 +18,9 @@ const Color kSecondaryLight =
 const Color kSecondaryMedium = Color(0xff57A2FF);
 
 // Shadow colors
-const Color kShadow = Color(0xffffD4D4EF);
-const Color kShadowDeep =
-    Color(0xffffD4D4EF); //bottom right shadow in neumorphism
-const Color kShadowLight = Color(0xffffffff); //top left shadow in neumorphism
+const Color kShadow = Color(0xffD4D4EF);
+// const Color kShadowDeep =Color(0xffD4D4EF);
+const Color kShadowLight = Color(0xffffffff);
 
 // All Text Colour constants
 const Color kTextPrimary = Color(0xff2699FB);
