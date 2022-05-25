@@ -1,15 +1,34 @@
 import 'package:fintech_app_1/utilities/import.dart';
 
 // Primary Colour Constants
-// ignore: use_full_hex_values_for_flutter_colors
+const Color kPrimaryBlack = Color(0xFF212121); // used as bg throughout the app
+const Color kPrimaryBlackLight = Color(0xFF2E2E2E); //
+
+const Color kGreyLight = Color(0xff585757); //
+const Color kGreyDark = Color(0xff3D3C3C);
+
+const Color kWhite = Color(0xffffffff);
+
+// For Onboarding Button
+const Color kPink = Color(0xffFF26DF);
+const Color kOrange = Color(0xffFF8A5B);
+
+// For Blue button
+const Color kBlueDeep = Color(0xff171E93); // used as bottom navigation bar
+const Color kBlueLight = Color(0xff328AF5);
+
+// All Text Colour constants
+const Color kTextPrimary = Color(0xffffffff);
+const Color kTextSecondary = Color(0xff006CFF);
+
+//const Color kTextPrimaryLight = Color(0xff606060);
+
+// Primary Colour Constants
 const Color kPrimary = Color(0xffF1F9FF); // used as bg throughout the app
 const Color kPrimaryDeep = Color(0xff2699FB); // used in active icons
-// ignore: use_full_hex_values_for_flutter_colors
 const Color kPrimaryLight = Color(0xffE0F4FF); // used in inactive icons
-
 const Color kPrimaryTransaction = Color(0xffE2f2ff);
-const Color kPrimaryInvestment = Color(0xffEAF6FF);
-const Color kWhite = Color(0xffffffff);
+const Color kPrimaryInvestment = Color(0xFF61B5F5);
 
 // Secondary Colour constants
 const Color kSecondary = Color(0xffE0F4FF); // used as bg in signin page
@@ -23,15 +42,23 @@ const Color kShadow = Color(0xffD4D4EF);
 const Color kShadowLight = Color(0xffffffff);
 
 // All Text Colour constants
-const Color kTextPrimary = Color(0xff2699FB);
+//const Color kTextPrimary = Color(0xff2699FB);
 const Color kTextPrimaryDeep = Color(0xff1E86D5);
 const Color kTextPrimaryMedium = Color(0xff55B7FF);
 const Color kTextPrimaryLight = Color(0xffA0D3FF);
 const Color kText = Color(0xff94CAF8);
 
-const Color kTextSecondary = Color(0xFF000000);
+//const Color kTextSecondary = Color(0xFF000000);
 const Color kTextSecondarylight = Color(0xffA8A8A8);
 const Color kTextSecondary2 = Color(0xFFffffff);
+
+// Onboarding Gradient
+const kPrimaryGradientColor = LinearGradient(
+  begin: Alignment.topRight,
+  end: Alignment.centerLeft,
+  colors: [Color(0xffFF26DF), Color(0xffFF8A5B)],
+);
+
 // Text Style
 TextStyle kCardText = const TextStyle(
   fontSize: 15,
@@ -53,7 +80,6 @@ TextStyle kHeading = const TextStyle(
 TextStyle kHeadingLight = const TextStyle(
   letterSpacing: 5,
   fontSize: 25,
-  color: kPrimaryDeep,
   fontWeight: FontWeight.w300, //appBar
 );
 TextStyle kBold = TextStyle(

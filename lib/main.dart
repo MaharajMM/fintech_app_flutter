@@ -1,4 +1,3 @@
-import 'package:fintech_app_1/screens/homescreen.dart';
 import 'package:fintech_app_1/utilities/import.dart';
 
 void main() {
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   primarySwatch: Colors.blue,
       // ),
-      home: HomeScreen(),
+      home: Onboarding2(),
     );
   }
 }
